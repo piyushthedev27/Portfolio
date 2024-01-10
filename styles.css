@@ -1,0 +1,251 @@
+/* Reset and General Styles */
+body {
+  font-family: 'Jost', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1A2716;
+  color: white;
+}
+
+#header img {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Main Section Styles */
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+#home {
+  max-width: 500px;
+}
+
+#home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#home h4 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#talk {
+  background-color: #1A2716;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#talk:hover {
+  background-color: #90E224;
+  color: #1A2716;
+}
+
+.color-section {
+  height: 10px;
+  width: 100%;
+  background-color: #1A2716;
+}
+
+/* Services Section Styles */
+.services-section {
+  max-width: 500px;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.service-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+
+hr {
+  height: 4px;
+  border-width: 0;
+  background-color: #90E224;
+  border-radius: 50%;
+}
+
+/* Skills Section Styles */
+.skills-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.skills-section h1 {
+  color: #1A2716;
+}
+
+.skills-section h3,
+.skills-section h2 {
+  color: #1A2716;
+  font-weight: normal;
+}
+
+.icon-background-secondary {
+  background-color: #90E224;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.icon-background-secondary span {
+  font-size: 24px;
+  color: #1A2716;
+}
+
+/* Unique Styles from the First CSS File */
+header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 80px;
+}
+
+nav {
+  background-color: #1a2716;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 80px;
+  color: #1a2716;
+  background-color: #90e224;
+  padding: 6px 24px;
+  font-size: 20px;
+  height: 50px;
+  font-weight: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 0;
+  font-size: 80px;
+  color: white;
+}
+
+.Home {
+  font-size: 100px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+}
+
+#home {
+  padding: 0;
+}
+
+#home h4 {
+  color: white;
+  font-weight: normal;
+  margin: 50px 0;
+}
+
+.color-section {
+  height: 100px;
+  width: 100%;
+  background-color: #90e224;
+  margin-top: 150px;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 250px;
+  padding: 100px 80px;
+}
+
+.services-section h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.icon-background-primary {
+  background-color: #90e224;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+}
+
+.icon-background-secondary {
+  background-color: #1a2716;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+}
+
+.skills {
+  height: 1024px;
+  width: 1440px;
+  background-color: #90e224;
+}
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 100px 80px;
+}
